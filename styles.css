@@ -1,25 +1,8 @@
 body {
     background-image: url("media/bg4.jpg");
     background-size: cover;
-    /* filter: blur(1px); */
 }
 
-/* .left-part {
-    float: left;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    
-
-}
-
-.right-part {
-
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-
-} */
 
 .full-name {
     width: 220px;
@@ -45,12 +28,6 @@ body {
 }
 
 .avatarka-settings {
-    /* display: flex;
-    flex-direction: row-reverse; */
-    
-    /* position: absolute;
-    top: 0;
-    right: 0; */
     margin-top: 10px;
     margin-bottom: 70px;
     margin-right: 300px;
@@ -60,21 +37,12 @@ body {
 
 }
 
-
-/* .about-work, .about-education, .about-me, .about-contacts, .about-abilities {
-    width: 50%;
-     margin-bottom: 70px;
-    
-} */
-
 .grid-item {
     margin-bottom: 30px;
 }
 
 .myself, .about-work, .about-education, .about-hobby {
-    margin-left: 300px;
-    
-        
+    margin-left: 300px;           
 }
 
 .myself {
@@ -84,9 +52,7 @@ body {
 
 .about-contacts, .about-me, .about-abilities {
      margin-right: 300px; 
-
 }
-
 
 .icon {
     width: 30px;    
@@ -108,21 +74,17 @@ body {
     width: 500px;
 }
 
-
 .line-under-contacts, .line-under-about-me {
     margin-right: 0;
     width: 500px;
 }
-
 
 .header-work, .header-education, .header-about-me, .header-contacts, .header-skills, .header-about-hobby {
     font-weight:bold;
     font-size: 25px;
     font-family: sans-serif;
     color: black;
-
 }
-
 
 /* Кнопка */
 .text-description {
@@ -155,7 +117,7 @@ body {
     margin-bottom: 30px;
 }
 .collapsible:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02795';
     font-size: 13px;
     color: white;
     float: right;
@@ -163,23 +125,20 @@ body {
 }
   
 .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2796";
 }
 /* Конец кнопки */
 
 
 
-
-
 * {box-sizing:border-box}
 
-/* Container for skill bars */
+
 .container {
-  width: 100%; /* Full width */
-  background-color: rgba(121, 121, 121, 0.34); /* Grey background */
+  width: 100%;
+  background-color: rgba(121, 121, 121, 0.34);
     
 }
-
 
 .skills {
   text-align: right; /* Right-align text */
@@ -205,11 +164,9 @@ body {
     grid-gap: 1vw;
 }
 
-
 .card {
     width: 500px;
     height: 81px;
-    /* padding: 0.5rem; */
     background: rgba(121, 121, 121, 0.34);
     border-radius: 8px;
     backdrop-filter: blur(1px);
@@ -220,46 +177,46 @@ body {
     transition: .4s;
     overflow: hidden;
     color: black;
-  }
+}
   
-  .card:hover {
+.card:hover {
     height: 153px;
     transform: skew(0deg);
-  }
+}
   
-  .align {
+.align {
     padding: 1rem;
     display: flex;
     flex-direction: row;
     gap: 5px;
     align-self: flex-start;
-  }
+}
   
-  .red {
+.red {
     width: 12px;
     height: 12px;
     border-radius: 50%;
     background-color: #ff605c;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
-  }
+}
   
-  .yellow {
+.yellow {
     width: 12px;
     height: 12px;
     border-radius: 50%;
     background-color: #ffbd44;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
-  }
+}
   
-  .green {
+.green {
     width: 12px;
     height: 12px;
     border-radius: 50%;
     background-color: #00ca4e;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
-  }
+}
   
-  .card h1 {
+.card h1 {
     text-align: center;
     margin: -17px;
     margin-bottom: 0px;
@@ -267,7 +224,7 @@ body {
     text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
 }
   
-  
+
 
 @media (max-width: 1618px) {
     .myself, .about-work, .about-education, .about-hobby {
@@ -312,33 +269,26 @@ body {
     }
 }
 
-/* @media (max-width: 1160px) {
-    .full-name {
-        width: 50%;
-        font-size: 50px;
-        font-family: cursive;
-    }
-    
-    .name {
-        font-weight: 400;
-    }
-    
-    .lastname {
-        display: flex;
-        justify-content: center;
-    }
-
-    .card {
-        width: 400px;
-        height: 64px;
-    }
-} */
 
 @media (max-width: 1160px) {
     .line-under-work, .line-under-education, .line-under-about-me, .line-under-skills, .line-under-hobby {
         margin-left: 0;
         width: 300px;
     }
+
+    .avatarka {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .name {
+        font-size: 50px;
+    }
+
+    .lastname {
+        font-size: 50px;
+    }
+    
     
     
     .line-under-contacts, .line-under-about-me {
